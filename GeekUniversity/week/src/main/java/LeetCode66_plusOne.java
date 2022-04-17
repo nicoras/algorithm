@@ -1,11 +1,8 @@
-public class LeetCode66 {
+public class LeetCode66_plusOne {
 
     public int[] plusOne(int[] digits) {
         //如果前面N位是9，可能最终位数需要+1，如9,99,999
         //如果最后一位+1,前面每一位可能需要+1,如799
-        //
-        int index = digits.length-1;
-        int digit = digits[index];
         //1、确认是否N个9
         boolean needRound = true;
         for(int i=0;i<digits.length;i++){
