@@ -22,7 +22,7 @@ public class LeetCode21_mergeTwoSortedLists {
         return preNode.next;
     }
 
-    class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
         ListNode() {}
