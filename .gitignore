@@ -24,3 +24,4 @@ test-output
 
 # Bazel
 **/bazel-*
+/out/
