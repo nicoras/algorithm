@@ -25,3 +25,4 @@ test-output
 # Bazel
 **/bazel-*
 /out/
+/.idea/
